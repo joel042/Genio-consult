@@ -17,7 +17,7 @@ function NavBar() {
 
   return (
     <>
-      <div className="flex-grow ">
+      <div className="flex-grow  ">
         <div className="shadow-md bg-[#156379]  top-0 left-0 w-full">
           <div className="md:flex items-center justify-between  py-4 md:px-10 ">
             <div>
@@ -30,10 +30,10 @@ function NavBar() {
               <ion-icon name={open ? "close" : "menu"}></ion-icon>
             </div>
             <ul
-              className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-[#156379]  left-0
+              className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-[#156379] z-10 left-0
                      transition-all duration-500 ease-in w-full md:w-auto md:pl-0 ${
                        open ? "top-20" : "top-[-490px]"
-                     } ` }
+                     } `}
             >
               {Links.map((link) => (
                 <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">

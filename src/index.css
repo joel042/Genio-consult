@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+.Navbar{
+    background-color:  #156379;
+    height: 94px;
+
+}
+

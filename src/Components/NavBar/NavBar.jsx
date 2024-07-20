@@ -20,7 +20,7 @@ function NavBar() {
       <div className="flex-grow  ">
         <div className="shadow-md bg-[#156379]  top-0 left-0 w-full">
           <div className="md:flex items-center justify-between  py-4 md:px-10 ">
-            <div>
+            <div className="ps-4 ">
               <img src={genioLogo} alt="" />
             </div>
             <div
@@ -36,7 +36,7 @@ function NavBar() {
                      } `}
             >
               {Links.map((link) => (
-                <li key={link.name} className="md:ml-8 text-xl md:my-0 my-7">
+                <li key={link.name} className="md:ml-8 m-6 text-xl md:my-0 my-6">
                   <a
                     href={link.link}
                     className="text-white hover:text-gray-200"

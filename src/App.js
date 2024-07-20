@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Footer from './Components/Footer/Footer';
 import ContactUS from './Components/ContactUs/ContactUS';
 import Subscribe from './Components/Subscribe/Subscribe';
+import OurPartners from './Components/OurPartners/OurPartners';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <>
       <div className=" min-h-screen flex flex-col">
         <NavBar />
+        <OurPartners />
         <Subscribe />
         <ContactUS />
         <Footer />

@@ -14,3 +14,17 @@
 
 }
 
+
+@keyframes scroll {  
+  0% {  
+    transform: translateX(0);  
+  }  
+  100% {  
+    transform: translateX(-100%);  
+  }  
+}  
+
+.infinite-scroll {  
+  width: calc(100% * 5); /* Adjust based on number of items */  
+  animation: scroll 250s linear infinite;  
+}

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <div className="w-full flex items-center bg-[#156379]">
-      <div className="container mx-auto py-10 flex justify-around text-white md:flex-row gap-7 flex-col-reverse ">
+      <div className="container mx-auto py-10 px-4 flex justify-around text-white md:flex-row gap-7 flex-col-reverse ">
         {/* copyright */}
         <div className="flex flex-col gap-8 pt-2 justify-center">
           <p className="pt-3">Copyright © 2024 Genio Incorporated Consult</p>

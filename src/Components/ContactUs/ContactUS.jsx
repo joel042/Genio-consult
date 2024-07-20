@@ -4,7 +4,7 @@ const ContactUS = () => {
     return (
       <div className="bg-gray-100 flex flex-col items-center">
         <div>
-          <h1 className="text-4xl mt-10 text-[#1B7B97] underline font-semibold mb-2 ">
+          <h1 className="text-4xl mt-10 text-[#1B7B97]  font-semibold mb-2 ">
             Contact Us
           </h1>
         </div>
@@ -18,7 +18,7 @@ const ContactUS = () => {
               <div>
                 <p>+234 (8) 067 446 121 </p>
                 <button className="border mt-5 hover:bg-[#1B7B97] hover:text-white hover:border-none border-black w-[165px] h-12 text-black font-bold rounded-lg">
-                  <p>Contact Us</p>
+                  <a href="tel:+2348067446121">Contact Us</a>
                 </button>
               </div>
             </div>
@@ -26,7 +26,7 @@ const ContactUS = () => {
             {/* loctaionBox*/}
             <div class=" p-6  bg-[#1B7B97]  shadow-lg">
               <div className="flex flex-col  items-center">
-                <div className="text-[110px]  animate-bounce   text-white   pe-1">
+                <div className="text-[110px]  animate-bounce -mb-3  text-white  pt-3  ">
                   <ion-icon name="pin"></ion-icon>
                 </div>
                 <div className="flex flex-col items-center">
@@ -34,10 +34,19 @@ const ContactUS = () => {
                     33 Kofo Abayomi, Victoria Island, Lagos State.
                   </p>
                   <button
+                    href="https://maps.app.goo.gl/J4buE7k2rXzVb1KA6"
                     className="border mt-10 border-white w-[165px] h-12 text-white font-bold rounded-lg hover:bg-white hover:text-[#1B7B97] hover:border-none
                   "
                   >
-                    <p>Locate Us</p>
+                    {" "}
+                    <a
+                      href="https://maps.app.goo.gl/J4buE7k2rXzVb1KA6"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {" "}
+                      Locate Us
+                    </a>
                   </button>
                 </div>
               </div>

@@ -11,7 +11,7 @@ const OurPartners = () => {
     <>
       <div>
         <div>
-          <h1 className="text-3xl flex justify-center mt-10 text-[#1B7B97] underline font-semibold mb-2 ">
+          <h1 className="text-3xl flex justify-center mt-10 text-[#1B7B97]  font-semibold mb-2 ">
             Our Partners
           </h1>
         </div>

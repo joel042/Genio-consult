@@ -4,24 +4,27 @@ import "../../";
 const Hero = () => {
   return (
     <>
+      <div className="hero-section ">
+        <div className="container mx-auto ">
+          <div className=" gradient-text ">
+            <h1 className=" gradient-text ">
+              DRIVING GROWTH WITH PRECISION AND INSIGHT
+            </h1>
+            {/* <h1>Driving Growth with Precision and Insight</h1> */}
 
-        <div className="hero-section  mx-auto w-full">
-      <h1>Driving Growth with Precision and Insight</h1>
+            <p>
+              The secret of change is to focus all of your energy not on
+              fighting the old, but on building the new.
+            </p>
+          </div>
 
-      <p>
-        The secret of change is to focus all of your energy not on fighting the
-        old, but on building the new.
-      </p>
-
-      <div className="hero-section-btn">
-        <button>Contact Us</button>
-        <button>Learn More</button>
+          <div className="hero-section-btn">
+            <button>Contact Us</button>
+            <button>Learn More</button>
+          </div>
+        </div>
       </div>
-
-      
-    </div>
     </>
-  
   );
 };
 

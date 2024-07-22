@@ -5,6 +5,7 @@
 * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
+
 }
 .Navbar {
   background-color: #156379;
@@ -25,10 +26,15 @@
   animation: scroll 250s linear infinite;
 }
 
+
+
+ 
+
 /* HERO SECTION STYLING START HERE */
 .hero-section {
   background-image: url(./Components/Hero/hero-background.png);
   background-position: center;
+  
   background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 0px 50px 100px;
@@ -40,16 +46,20 @@
   font-weight: 800;
   line-height: 80px;
   text-align: left;
-  color: #0b313c;
+  /* color: #0b313c; */
+  color: rgb(13, 149, 13);
 }
 
 .hero-section p {
   width: 461px;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 30px;
   text-align: left;
-  color: #3c3535;
+  color: #251818;
+  background-color: rgba(255, 255, 255, 0.05);
+
+  border-radius: 8px;
   margin: 20px 0px;
 }
 
@@ -63,7 +73,7 @@
   height: 56px;
   padding: 10px;
   border-radius: 24px;
-  background-color: #1b7b97;
+   background-color: #104a5b;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -74,7 +84,10 @@
 }
 
 .hero-section-btn button:nth-child(1):hover {
-  background-color: #104a5b;
+  background-color: rgb(201, 246, 201);
+  color: #156379;
+   border: 1.5px solid #156379;
+    /* background-color: #1b7b97; */
 }
 
 .hero-section-btn button:nth-child(2) {
@@ -82,9 +95,10 @@
   height: 56px;
   padding: 10px;
   border-radius: 24px;
-  background-color: transparent;
-  color: #1b7b97;
-  border: 1.5px solid #1b7b97;
+   background-color: rgb(201, 246, 201);
+  /* background-color: transparent; */
+  color: #0c4757;
+  border: 1.5px solid white;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
@@ -93,7 +107,10 @@
 }
 
 .hero-section-btn button:nth-child(2):hover {
-  background-color: #fff;
+  /* background-color: #fff; */
+
+    background-color: #104a5b;
+    color: white;
 }
 
 /* Responsivesness */
@@ -133,13 +150,16 @@
     width: 350px;
     font-size: 40px;
     line-height: 60px;
+    background-color: rgba(255, 255, 255, 0.042);
+    border-radius: 8px;
+    margin-top: 20px;
   }
 
   .hero-section p {
     width: 60%;
     font-weight: 600;
-    font-size: 25px;
-    line-height: 35px;
+    font-size: 15px;
+    line-height: 25px;
   }
 
   .hero-section-btn {

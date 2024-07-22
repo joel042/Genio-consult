@@ -26,7 +26,7 @@ const AboutUs = () => {
               ></iframe>
               {/* <img src={AboutUSImg} alt="" />  */}
             </div>
-            <div className="bg-white  bg-opacity-[0.9]  md:ms-12 w-full  ms-0 flex flex-col  justify-center text-black p-5">
+            <div className="bg-white  bg-opacity-[0.9]  md:ms-8 w-full  ms-0 flex flex-col  justify-center text-black p-5">
               <div>
                 <h1 className="font-semibold text-3xl pb-5">
                   We are the best at what we do

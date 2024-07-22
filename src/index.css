@@ -73,6 +73,10 @@
   box-shadow: 0px 4px 4px 0px #00000040;
 }
 
+.hero-section-btn button:nth-child(1):hover {
+  background-color: #104a5b;
+}
+
 .hero-section-btn button:nth-child(2) {
   width: 196px;
   height: 56px;
@@ -86,6 +90,10 @@
   line-height: 24px;
   text-align: center;
   box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.hero-section-btn button:nth-child(2):hover {
+  background-color: #fff;
 }
 
 /* Responsivesness */

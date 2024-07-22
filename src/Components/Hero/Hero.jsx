@@ -3,7 +3,9 @@ import "../../";
 
 const Hero = () => {
   return (
-    <div className="hero-section">
+    <>
+
+        <div className="hero-section  mx-auto w-full">
       <h1>Driving Growth with Precision and Insight</h1>
 
       <p>
@@ -15,7 +17,11 @@ const Hero = () => {
         <button>Contact Us</button>
         <button>Learn More</button>
       </div>
+
+      
     </div>
+    </>
+  
   );
 };
 

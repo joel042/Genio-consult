@@ -16,9 +16,11 @@ const ContactUS = () => {
                 <ion-icon name="call"></ion-icon>
               </div>
               <div>
-                <p>+234 (8) 067 446 121 </p>
-                <button className="border mt-5 hover:bg-[#1B7B97] hover:text-white hover:border-none border-black w-[165px] h-12 text-black font-bold rounded-lg">
-                  <a href="tel:+2348067446121">Contact Us</a>
+                <p className="font-semibold">+234 (8) 067 446 121 </p>
+                <button className="border mt-5 hover:bg-[#1B7B97]  hover:border-none border-[#1B7B97]   text-[#1B7B97] hover:text-white w-[165px] h-12 font-bold rounded-lg">
+                  <a href="tel:+2348067446121" className="">
+                    Contact Us
+                  </a>
                 </button>
               </div>
             </div>
@@ -30,7 +32,7 @@ const ContactUS = () => {
                   <ion-icon name="pin"></ion-icon>
                 </div>
                 <div className="flex flex-col items-center">
-                  <p className="text-white">
+                  <p className="text-white font-bold">
                     33 Kofo Abayomi, Victoria Island, Lagos State.
                   </p>
                   <button
@@ -54,17 +56,19 @@ const ContactUS = () => {
 
             {/* mailBox */}
             <div class="bg-white flex flex-col h-72 items-center p-6  shadow-lg">
-              <div className="text-[100px]  animate-pulse z-[1] -rotate-45 ">
+              <div className="text-[100px]  animate-pulse ms-10 z-[1] -rotate-45 ">
                 <ion-icon name="send"></ion-icon>
               </div>
               <div>
-                <p>genio.incorporated@gmail.com </p>
+                <p className="font-semibold ">genio.incorporated@gmail.com </p>
                 <button
                   href="mailto:genio.incorporated@gmail.com"
-                  className="border ms-11 mt-5 border-black w-[165px] h-12 hover:bg-[#1B7B97] hover:text-white hover:border-none
-                   text-black font-bold rounded-lg"
+                  className="border ms-11 mt-5 border-[#1B7B97]  text-[#1B7B97] hover:text-white w-[165px] h-12 hover:bg-[#1B7B97]  hover:border-none
+                    font-bold rounded-lg"
                 >
-                  <a href="mailto:genio.incorporated@gmail.com">Mail Us</a>
+                  <a href="mailto:genio.incorporated@gmail.com" className="">
+                    Mail Us
+                  </a>
                 </button>
               </div>
             </div>

@@ -6,6 +6,7 @@ import Subscribe from "./Components/Subscribe/Subscribe";
 import OurPartners from "./Components/OurPartners/OurPartners";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import Hero from "./Components/Hero/Hero";
+import HeroTwo from "./Components/Hero/HeroTwo";
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <div className=" min-h-screen flex flex-col">
         <NavBar />
         <Hero />
-
+        <HeroTwo />
         <AboutUs />
         <OurPartners />
         <Subscribe />

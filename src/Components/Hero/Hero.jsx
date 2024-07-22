@@ -1,10 +1,11 @@
 import React from "react";
 import "../../";
 
+
 const Hero = () => {
   return (
     <>
-      <div className="hero-section ">
+      <div className="hero-section md:mt-12 mt-14 ">
         <div className="container mx-auto ">
           <div className=" gradient-text ">
             <h1 className=" gradient-text ">
@@ -23,6 +24,9 @@ const Hero = () => {
             <button>Learn More</button>
           </div>
         </div>
+   
+        
+       
       </div>
     </>
   );

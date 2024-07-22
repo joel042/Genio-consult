@@ -17,10 +17,10 @@ function NavBar() {
 
   return (
     <>
-      <div className=" ">
-        <div className="shadow-md bg-[#156379]  top-0 left-0 w-full">
+      <div className=" container mx-auto">
+        <div className="shadow-md bg-[#156379]  z-[10] fixed top-0 left-0 w-full">
           <div className="md:flex items-center justify-around py-4 md:px-10 ">
-            <div className="">
+            <div className="ms-2">
               <img src={genioLogo} alt="genioLogo" />
             </div>
             <div
@@ -30,8 +30,8 @@ function NavBar() {
               <ion-icon name={open ? "close" : "menu"}></ion-icon>
             </div>
             <ul
-              className={`md:flex md:items-center md:pb-0 pb-12 absolute md:static bg-[#156379] z-10 left-0
-                     transition-all duration-500 ease-in w-full md:w-auto md:pl-0 ${
+              className={`md:flex md:items-center md:pb-0 pb-1 text-end absolute md:static bg-[#156379] rounded-2xl z-10 right-0 me-2
+                     transition-all duration-500 ease-in  md:w-auto md:pl-0 ${
                        open ? "top-20" : "top-[-490px]"
                      } `}
             >

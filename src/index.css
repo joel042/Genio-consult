@@ -2,29 +2,173 @@
 @tailwind components;
 @tailwind utilities;
 
-
-*{
-    font-family: "Montserrat", sans-serif;
+* {
+  font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-  
 }
-.Navbar{
-    background-color:  #156379;
-    height: 94px;
-
+.Navbar {
+  background-color: #156379;
+  height: 94px;
 }
 
-
-@keyframes scroll {  
-  0% {  
-    transform: translateX(0);  
-  }  
-  100% {  
-    transform: translateX(-100%);  
-  }  
-}  
-
-.infinite-scroll {  
-  width: calc(100% * 5); /* Adjust based on number of items */  
-  animation: scroll 250s linear infinite;  
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
+
+.infinite-scroll {
+  width: calc(100% * 5); /* Adjust based on number of items */
+  animation: scroll 250s linear infinite;
+}
+
+/* HERO SECTION STYLING START HERE */
+.hero-section {
+  background-image: url(./Components/Hero/hero-background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0px 50px 100px;
+}
+
+.hero-section h1 {
+  width: 509px;
+  font-size: 55px;
+  font-weight: 800;
+  line-height: 80px;
+  text-align: left;
+  color: #0b313c;
+}
+
+.hero-section p {
+  width: 461px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #3c3535;
+  margin: 20px 0px;
+}
+
+.hero-section-btn {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hero-section-btn button:nth-child(1) {
+  width: 196px;
+  height: 56px;
+  padding: 10px;
+  border-radius: 24px;
+  background-color: #1b7b97;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  margin-right: 30px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+.hero-section-btn button:nth-child(2) {
+  width: 196px;
+  height: 56px;
+  padding: 10px;
+  border-radius: 24px;
+  background-color: transparent;
+  color: #1b7b97;
+  border: 1.5px solid #1b7b97;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  box-shadow: 0px 4px 4px 0px #00000040;
+}
+
+/* Responsivesness */
+@media (max-width: 359px) {
+  .hero-section {
+    padding: 20px 0px 20px 10px;
+  }
+
+  .hero-section h1 {
+    width: 100%;
+    font-size: 37px;
+    line-height: 45px;
+  }
+
+  .hero-section p {
+    width: 300px;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 35px;
+  }
+
+  .hero-section-btn {
+    margin: 20px 0px;
+  }
+
+  .hero-section-btn button:nth-child(1) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .hero-section {
+    padding: 30px 0px 30px 20px;
+  }
+
+  .hero-section h1 {
+    width: 400px;
+    font-size: 47px;
+    line-height: 60px;
+  }
+
+  .hero-section p {
+    width: 330px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .hero-section-btn {
+    margin: 30px 0px;
+  }
+
+  .hero-section-btn button:nth-child(1) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 850px) {
+  .hero-section {
+    padding: 50px 0px 40px 60px;
+  }
+
+  .hero-section h1 {
+    width: 500px;
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  .hero-section p {
+    width: 500px;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: 550;
+  }
+
+  .hero-section-btn button:nth-child(1) {
+    font-size: 24px;
+    height: 60px;
+  }
+
+  .hero-section-btn button:nth-child(2) {
+    font-size: 24px;
+    height: 60px;
+  }
+}
+/* HERO SECTION STYLING END HERE */

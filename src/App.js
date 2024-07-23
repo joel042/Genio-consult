@@ -1,28 +1,23 @@
 import "./App.css";
 import NavBar from "./Components/NavBar/NavBar";
 import Footer from "./Components/Footer/Footer";
-import ContactUS from "./Components/ContactUs/ContactUS";
-import Subscribe from "./Components/Subscribe/Subscribe";
-import OurPartners from "./Components/OurPartners/OurPartners";
-import AboutUs from "./Components/AboutUs/AboutUs";
-import Hero from "./Components/Hero/Hero";
-import HeroTwo from "./Components/Hero/HeroTwo";
-
+import Home from "./Components/Pages/Home";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import OurServicesPage from "./Components/Pages/OurServicesPage";
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <div className=" min-h-screen flex flex-col">
         <NavBar />
-        <Hero />
-        <HeroTwo />
-        <AboutUs />
-        <OurPartners />
-        <Subscribe />
-        <ContactUS />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/OurServicesPage" element={<OurServicesPage />} />
+        </Routes>
+
         <Footer />
       </div>
-    </>
+    </BrowserRouter>
   );
 }
 

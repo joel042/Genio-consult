@@ -10,15 +10,16 @@ function NavBar() {
     { name: "Home", link: "./" },
     { name: "About us", link: "./" },
     { name: "Careers", link: "./" },
-    { name: "Service", link: "./" },
+    { name: "Service", link: "./OurServicesPage" },
     { name: "Contact Us", link: "./" },
   ];
+  
   let [open, setOpen] = useState(false);
 
   return (
     <>
-      <div className=" container mx-auto">
-        <div className="shadow-md bg-[#156379]  z-[10] fixed top-0 left-0 w-full">
+      <div className=" ">
+        <div className="shadow-md fixed bg-[#156379]  z-[10]  top-0 left-0 w-full">
           <div className="md:flex items-center justify-around py-4 md:px-10 ">
             <div className="ms-2">
               <img src={genioLogo} alt="genioLogo" />

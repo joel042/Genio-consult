@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 // import NavBar from '../NavBar/NavBar';
 import ContactUS from "../ContactUs/ContactUS";
 import Subscribe from "../Subscribe/Subscribe";

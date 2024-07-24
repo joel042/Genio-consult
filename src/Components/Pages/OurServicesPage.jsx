@@ -3,8 +3,8 @@ import Accordion from "../Accordion/Accordion";
 
 import StrategicImg from "./cover.png";
 import financialImg from "./cover (1).png"
-import marketingImg from "./cover (2).png";
-import TechnologyImg from "./cover (3).png";
+// import marketingImg from "./cover (2).png";
+// import TechnologyImg from "./cover (3).png";
 import operationsImg from "./cover (4).png";
 import inovationImg from "./cover (5).png";
 import riskImg from "./cover (6).png";
@@ -96,6 +96,7 @@ const OurServicesPage = () => {
       </div>
 
       {/* Marketing and Sales */}
+{/* 
       <div className="container mx-auto">
         <div className="shadow-sm ">
           <div className=" ">
@@ -132,8 +133,10 @@ const OurServicesPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
       {/* Technology Consulting */}
+{/*       
       <div className="container mx-auto">
         <div className="shadow-sm ">
           <div className=" ">
@@ -172,7 +175,8 @@ const OurServicesPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
       {/* Operations Improvement */}
       <div className="container mx-auto">
         <div className="shadow-sm ">

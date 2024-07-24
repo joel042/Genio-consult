@@ -6,12 +6,14 @@ import OurPartners from "../OurPartners/OurPartners";
 import AboutUs from "../AboutUs/AboutUs";
 import Hero from "../Hero/Hero";
 import HeroTwo from "../Hero/HeroTwo";
+import OurServices from '../OurServices/OurServices';
 
 const Home = () => {
     return (
       <div>
         <Hero />
         <HeroTwo />
+        <OurServices />
         <AboutUs />
         <OurPartners />
         <Subscribe />

@@ -5,7 +5,6 @@
 * {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
-
 }
 .Navbar {
   background-color: #156379;
@@ -26,17 +25,19 @@
   animation: scroll 250s linear infinite;
 }
 
+/* SLICK SLIDER STYLING START HERE */
 
 
  .slick-slide > div{
   margin: 0 10px;
  }
 
+
 /* HERO SECTION STYLING START HERE */
 .hero-section {
   background-image: url(./Components/Hero/hero-background.png);
   background-position: center;
-  
+
   background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 0px 50px 100px;
@@ -75,7 +76,7 @@
   height: 56px;
   padding: 10px;
   border-radius: 24px;
-   background-color: #104a5b;
+  background-color: #104a5b;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -88,8 +89,8 @@
 .hero-section-btn button:nth-child(1):hover {
   background-color: rgb(201, 246, 201);
   color: #156379;
-   border: 1.5px solid #156379;
-    /* background-color: #1b7b97; */
+  border: 1.5px solid #156379;
+  /* background-color: #1b7b97; */
 }
 
 .hero-section-btn button:nth-child(2) {
@@ -97,7 +98,7 @@
   height: 56px;
   padding: 10px;
   border-radius: 24px;
-   background-color: rgb(201, 246, 201);
+  background-color: rgb(201, 246, 201);
   /* background-color: transparent; */
   color: #0c4757;
   border: 1.5px solid white;
@@ -111,8 +112,8 @@
 .hero-section-btn button:nth-child(2):hover {
   /* background-color: #fff; */
 
-    background-color: #104a5b;
-    color: white;
+  background-color: #104a5b;
+  color: white;
 }
 
 /* Responsivesness */
@@ -206,3 +207,119 @@
   }
 }
 /* HERO SECTION STYLING END HERE */
+
+/* HERO CARD SECTION STYLING BEGINS HERE */
+.heroBox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: -40px;
+}
+
+.heroCard {
+  width: 330px;
+  height: 230px;
+  box-shadow: 0px 13px 19px 0px #00000012;
+  padding: 35px 40px;
+}
+
+.heroCard h2 {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.heroCard p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.heroCard img {
+  margin-bottom: 10px;
+}
+
+/* HeroCard Responsiveness */
+@media (max-width: 395px) {
+  .heroBox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .heroCard {
+    margin-bottom: 20px;
+    width: 320px;
+    height: 250px;
+    padding: 25px 30px;
+  }
+
+  .heroCard h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .heroCard p {
+    font-size: 18px;
+  }
+
+  .heroCard img {
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 396px) and (max-width: 767px) {
+  .heroBox {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .heroCard {
+    margin-bottom: 20px;
+    width: 350px;
+    height: 270px;
+    padding: 25px 30px;
+  }
+
+  .heroCard h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+
+  .heroCard p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .heroCard img {
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 950px) {
+  .heroBox {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -40px;
+  }
+
+  .heroCard {
+    width: 240px;
+    height: 280px;
+    padding: 20px 25px;
+  }
+
+  .heroCard h2 {
+    font-size: 28px;
+  }
+
+  .heroCard p {
+    font-size: 19px;
+    line-height: 23px;
+  }
+}
+
+/* HERO CARD SECTION STYLING ENDS HERE */

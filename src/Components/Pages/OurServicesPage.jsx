@@ -12,9 +12,9 @@ import riskImg from "./cover (6).png";
 
 const OurServicesPage = () => {
   return (
-    <div className=" mt-24 min-h-screen">
+    <div className=" mt-24 min-h-screen ">
       {/* strategic palnning */}
-      <div className="container mx-auto">
+      <div className="container mx-auto" id="StrategicPlanning">
         <div className="shadow-sm ">
           <div className=" ">
             <div className="flex md:grid-cols-2  md:grid flex-col-reverse">
@@ -69,7 +69,7 @@ const OurServicesPage = () => {
                 />
               </div>
               <div className="bg-white  p-4">
-                <h1 class="text-3xl text font-bold px-5">
+                <h1 class="text-3xl text font-bold px-5 " id="Financial">
                   Financial Consulting
                 </h1>
                 <ul className=" leading-9  p-5">
@@ -96,7 +96,7 @@ const OurServicesPage = () => {
       </div>
 
       {/* Marketing and Sales */}
-{/* 
+      {/* 
       <div className="container mx-auto">
         <div className="shadow-sm ">
           <div className=" ">
@@ -136,7 +136,7 @@ const OurServicesPage = () => {
       </div> */}
 
       {/* Technology Consulting */}
-{/*       
+      {/*       
       <div className="container mx-auto">
         <div className="shadow-sm ">
           <div className=" ">
@@ -178,7 +178,7 @@ const OurServicesPage = () => {
       </div> */}
 
       {/* Operations Improvement */}
-      <div className="container mx-auto">
+      <div className="container mx-auto" id="Operations">
         <div className="shadow-sm ">
           <div className=" ">
             <div className="flex md:grid-cols-2  md:grid flex-col-reverse">
@@ -217,7 +217,7 @@ const OurServicesPage = () => {
       </div>
 
       {/* Innovation and Product Development */}
-      <div className="container mx-auto">
+      <div className="container mx-auto" id="innovation">
         <div className="shadow-sm ">
           <div className=" ">
             <div className="flex md:grid-cols-2  md:grid flex-col">
@@ -256,7 +256,7 @@ const OurServicesPage = () => {
       </div>
 
       {/* Operations Improvement */}
-      <div className="container mx-auto">
+      <div className="container mx-auto" id="risk">
         <div className="shadow-sm ">
           <div className=" ">
             <div className="flex md:grid-cols-2  md:grid flex-col-reverse">

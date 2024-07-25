@@ -3,6 +3,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
+import { Link } from "react-router-dom"; 
+
 // import StrategicImg from "../Pages/cover.png";
 import financialImg from "../Pages/cover (1).png";
 // import StrategicImg from "../Pages/cover (4).png";
@@ -52,6 +54,11 @@ const OurServices = () => {
     <>
       <div className="w-3/4 m-auto">
         <div className="mt-20  pt-2">
+          <div>
+            <h1 className="text-3xl flex justify-center text-[#1B7B97]   font-semibold mb-7">
+              Services
+            </h1>
+          </div>
           <Slider {...settings}>
             {services.map((service) => (
               <div
@@ -70,9 +77,13 @@ const OurServices = () => {
                   <p>{service.description}</p>
                 </div>
                 <div className=" absolute bottom-3 ">
-                  <button className=" bg-[#E0F1E0]   text-green-700 font-semibold tex-lg px-6 py-1   ">
+                <Link to={service.href}>
+
+                     <button  className=" bg-[#E0F1E0]   text-green-700 font-semibold tex-lg px-6 py-1   ">
                     Read More
                   </button>
+                </Link>
+                 
                 </div>
               </div>
             ))}
@@ -91,6 +102,7 @@ const services = [
       "  Helping organizations define their strategic direction, set goals, and develop actionable plans.",
 
     Img: TechnologyImg,
+    href: "/OurServicesPage#StrategicPlanning"
   },
   {
     id: 2,
@@ -98,6 +110,8 @@ const services = [
     description:
       " Our Financial Planning and Analysis (FP&A) services help you create detailed financial plans and conduct thorough analyses to support strategic decision-making.",
     Img: financialImg,
+  href: "/OurServicesPage#Financial",
+    
   },
   {
     id: 3,
@@ -105,6 +119,7 @@ const services = [
     description:
       "Our process optimization services aim to enhance the efficiency and effectiveness of your business operations.",
     Img: operationsImg,
+    href: "/OurServicesPage#Operations",
   },
   {
     id: 4,
@@ -112,6 +127,7 @@ const services = [
     description:
       "Our innovation strategy services help you cultivate a culture of innovation and develop a strategic framework for driving continuous improvement and growth. ",
     Img: inovationImg,
+    href: "/OurServicesPage#innovation",
   },
   {
     id: 5,
@@ -119,6 +135,7 @@ const services = [
     description:
       "Our risk management services involve identifying, assessing, and prioritizing risks that could potentially impact your business operations.",
     Img: riskImg,
+    href: "/OurServicesPage#risk",
   },
 ];
 

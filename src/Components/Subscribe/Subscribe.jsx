@@ -17,7 +17,7 @@ const Subscribe = () => {
           
         </div> */}
 
-      <div className="container bg-[#104A5B] px-5 mx-auto">
+      <div className="container relative z-10 bg-[#104A5B] px-5 mx-auto">
         <div class="flex md:flex-row flex-col  items-center  justify-around p-4 rounded-lg">
           <p class="text-lg font-semibold text-white">
             Subscribe For Latest News or Blog
@@ -34,7 +34,7 @@ const Subscribe = () => {
           </div>
         </div>
       </div>
-      <div className="h-20 hidden md:block bg-[#0B313C] -mt-14 z-[-1]"></div>
+      <div className="h-20 hidden md:block bg-[#0B313C] -mt-14 "></div>
     </>
   );
 };

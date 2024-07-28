@@ -13,6 +13,56 @@ import operationsImg from "../Pages/cover (4).png";
 import inovationImg from "../Pages/cover (5).png";
 import riskImg from "../Pages/cover (6).png";
 
+
+
+
+function NextArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "lightgreen",
+        // font: "bold",
+
+        // color: "black",
+        // fontSize: "20px",
+        // marginLeft: "10px",
+        // transform: "translate(-100%, -50%)",
+        cursor: "pointer",
+        borderRadius: "50px",
+      
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
+function PrevArrow(props) {
+  const { className, style, onClick } = props;
+  return (
+    <div
+      className={className}
+      style={{
+        ...style,
+        display: "block",
+        background: "lightgreen",
+        font: "bold",
+      
+        // color: "gray",
+        // fontSize: "20px",
+        // marginLeft: "10px",
+        // transform: "translate(-100%, -50%)",
+        cursor: "pointer",
+      borderRadius: "40px",
+      }}
+      onClick={onClick}
+    />
+  );
+}
+
 const OurServices = () => {
 
     var settings = {
@@ -22,18 +72,29 @@ const OurServices = () => {
       slidesToShow: 4,
       slidesToScroll: 4,
       initialSlide: 0,
+      nextArrow: <NextArrow />,
+      prevArrow: <PrevArrow />,
       responsive: [
         {
           breakpoint: 1024,
           settings: {
             slidesToShow: 2,
-            slidesToScroll:1,
+            slidesToScroll: 1,
             infinite: true,
             dots: true,
           },
         },
         {
-          breakpoint: 600,
+          breakpoint: 1900,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true,
+          },
+        },
+        {
+          breakpoint: 621,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1,
@@ -52,42 +113,42 @@ const OurServices = () => {
 
   return (
     <>
-      <div className="w-3/4 m-auto">
-        <div className="mt-20  pt-2">
-          <div>
-            <h1 className="text-3xl flex justify-center text-[#1B7B97]   font-semibold mb-7">
-              Services
-            </h1>
+      <div className=" ">
+        <div className=" w-3/4  m-auto">
+          <div className="mt-20  pt-2">
+            <div>
+              <h1 className="text-3xl flex justify-center text-[#1B7B97]   font-semibold mb-7">
+                Services
+              </h1>
+            </div>
+            <Slider {...settings}>
+              {services.map((service) => (
+                <div
+                  key={service.id}
+                  className=" bg-white border h-[500px]   text-black rounded  "
+                >
+                  <div className="rounded-t-xl h-56 bg-blue-50 flex justify-center items-center">
+                    <img
+                      src={service.Img}
+                      alt=""
+                      className="w-full  h-full object-cover"
+                    />
+                  </div>
+                  <div className="flex flex-col  gap-2 leading-7  ps-2">
+                    <h3 className="font-bold text-xl ">{service.title}</h3>
+                    <p>{service.description}</p>
+                  </div>
+                  <div className=" absolute bottom-3 ">
+                    <Link to={service.href}>
+                      <button className=" bg-[#E0F1E0]   text-green-700 font-semibold tex-lg px-6 py-1   ">
+                        Read More
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              ))}
+            </Slider>
           </div>
-          <Slider {...settings}>
-            {services.map((service) => (
-              <div
-                key={service.id}
-                className=" bg-white border h-[500px]  text-black rounded  "
-              >
-                <div className="rounded-t-xl h-56 bg-blue-50 flex justify-center items-center">
-                  <img
-                    src={service.Img}
-                    alt=""
-                    className="w-full  h-full object-cover"
-                  />
-                </div>
-                <div className="flex flex-col  gap-2 leading-7  ps-2">
-                  <h3 className="font-bold text-xl ">{service.title}</h3>
-                  <p>{service.description}</p>
-                </div>
-                <div className=" absolute bottom-3 ">
-                <Link to={service.href}>
-
-                     <button  className=" bg-[#E0F1E0]   text-green-700 font-semibold tex-lg px-6 py-1   ">
-                    Read More
-                  </button>
-                </Link>
-                 
-                </div>
-              </div>
-            ))}
-          </Slider>
         </div>
       </div>
     </>

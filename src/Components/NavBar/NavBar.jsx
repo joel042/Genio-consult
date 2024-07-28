@@ -31,7 +31,7 @@ function NavBar() {
               <ion-icon name={open ? "close" : "menu"}></ion-icon>
             </div>
             <ul
-              className={`md:flex md:items-center md:pb-0 pb-1 text-end absolute md:static bg-[#156379] rounded-2xl z-10 right-0 me-2
+              className={`md:flex md:items-center md:pb-0 pb-1 text-end absolute md:static bg-[#156379] rounded z-10 right-0 me-2
                      transition-all duration-500 ease-in  md:w-auto md:pl-0 ${
                        open ? "top-20" : "top-[-490px]"
                      } `}

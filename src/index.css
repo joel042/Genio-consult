@@ -37,7 +37,7 @@
 .hero-section {
   background-image: url(./Components/Hero/hero-background.png);
   background-position: center;
-
+  /* height: 800px; */
   background-size: cover;
   background-repeat: no-repeat;
   padding: 60px 0px 50px 100px;
@@ -49,8 +49,8 @@
   font-weight: 800;
   line-height: 80px;
   text-align: left;
-  /* color: #0b313c; */
-  color: rgb(13, 149, 13);
+  color: #0b313c;
+  /* color: rgb(13, 149, 13); */
 }
 
 .hero-section p {
@@ -76,7 +76,7 @@
   height: 56px;
   padding: 10px;
   border-radius: 24px;
-  background-color: #104a5b;
+  background-color: #1B7B97;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -87,9 +87,9 @@
 }
 
 .hero-section-btn button:nth-child(1):hover {
-  background-color: rgb(201, 246, 201);
-  color: #156379;
-  border: 1.5px solid #156379;
+  background-color: #104a5b;
+  color: white;
+  /* border: 1.5px solid #156379; */
   /* background-color: #1b7b97; */
 }
 
@@ -98,10 +98,10 @@
   height: 56px;
   padding: 10px;
   border-radius: 24px;
-  background-color: rgb(201, 246, 201);
-  /* background-color: transparent; */
-  color: #0c4757;
-  border: 1.5px solid white;
+  /* background-color: rgb(201, 246, 201); */
+  background-color: transparent;
+  color: #1B7B97;
+  border: 1.5px solid #1B7B97;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
@@ -111,7 +111,7 @@
 
 .hero-section-btn button:nth-child(2):hover {
   /* background-color: #fff; */
-
+border: none;
   background-color: #104a5b;
   color: white;
 }
@@ -147,6 +147,7 @@
 @media (min-width: 396px) and (max-width: 767px) {
   .hero-section {
     padding: 30px 0px 30px 20px;
+    background: transparent;
   }
 
   .hero-section h1 {

@@ -20,7 +20,7 @@ const AboutUsPage = () => {
         <div className="">
           <div className="container w-auto md:w-[1100px] mx-auto">
             <div className="flex justify-center">
-              <img src={aboutUsImg} alt="" className="h-[50px] md:h-[100px]" />
+              <img src={aboutUsImg} alt="" className="h-[80px] md:h-[100px]" />
             </div>
             <div>
               <h1 className="p-5 md:text-2xl">

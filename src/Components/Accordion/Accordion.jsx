@@ -4,7 +4,7 @@ const Accordion = (props) => {
   const { title, description, benefits } = props;
   const [accordionOpen, SetaccordionOpen] = useState(false);
   return (
-    <div className="py-">
+    <div className="py-1">
       <button
         onClick={() => SetaccordionOpen(!accordionOpen)}
         className="flex justify-between  mb-2 items-center w-full"

@@ -8,10 +8,10 @@ import genioLogo from "./genioLogo.png";
 function NavBar() {
   let Links = [
     { name: "Home", link: "./" },
-    { name: "About us", link: "./" },
+    { name: "About us", link: "./AboutUsPage" },
     { name: "Careers", link: "./" },
     { name: "Service", link: "./OurServicesPage" },
-    { name: "Contact Us", link: "./" },
+    { name: "Contact Us", link: "./ContactUsPage" },
   ];
   
   let [open, setOpen] = useState(false);

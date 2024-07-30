@@ -27,11 +27,9 @@
 
 /* SLICK SLIDER STYLING START HERE */
 
-
- .slick-slide > div{
+.slick-slide > div {
   margin: 0 10px;
- }
-
+}
 
 /* HERO SECTION STYLING START HERE */
 .hero-section {
@@ -47,11 +45,10 @@
   width: 509px;
   font-size: 55px;
   font-weight: 800;
- 
+
   line-height: 80px;
   text-align: left;
   color: #0b313c;
-  /* color: rgb(13, 149, 13); */
 }
 
 .hero-section p {
@@ -77,7 +74,7 @@
   height: 56px;
   padding: 10px;
   border-radius: 24px;
-  background-color: #1B7B97;
+  background-color: #1b7b97;
   color: #fff;
   font-size: 18px;
   font-weight: 600;
@@ -101,8 +98,8 @@
   border-radius: 24px;
   /* background-color: rgb(201, 246, 201); */
   background-color: transparent;
-  color: #1B7B97;
-  border: 1.5px solid #1B7B97;
+  color: #1b7b97;
+  border: 1.5px solid #1b7b97;
   font-size: 18px;
   font-weight: 600;
   line-height: 24px;
@@ -112,7 +109,7 @@
 
 .hero-section-btn button:nth-child(2):hover {
   /* background-color: #fff; */
-border: none;
+  border: none;
   background-color: #104a5b;
   color: white;
 }
@@ -210,118 +207,120 @@ border: none;
 }
 /* HERO SECTION STYLING END HERE */
 
-/* HERO CARD SECTION STYLING BEGINS HERE */
-.heroBox {
-  display: flex;
-  justify-content: space-evenly;
-  margin-top: -40px;
+/* CONTACT US PAGE STYLING STARTS HERE */
+.contact-heroSection {
+  background-image: url(./Components/Pages/Contact-hero-bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: max-content;
+  margin-top: -10px;
 }
 
-.heroCard {
-  width: 330px;
-  height: 230px;
-  box-shadow: 0px 13px 19px 0px #00000012;
-  padding: 35px 40px;
+.about-heroText {
+  width: 850px;
+  padding: 240px 0px 200px 200px;
+  color: #080808;
 }
-
-.heroCard h2 {
-  font-size: 25px;
+.about-heroText h1 {
+  font-size: 58px;
   font-weight: 700;
-  line-height: 32px;
-  margin-bottom: 8px;
+  line-height: 64px;
+  text-align: left;
+}
+.about-heroText p {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
 }
 
-.heroCard p {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 20px;
-}
-
-.heroCard img {
-  margin-bottom: 10px;
-}
-
-/* HeroCard Responsiveness */
+/* Contact Page Responsiveness */
 @media (max-width: 395px) {
-  .heroBox {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10px;
+  .contact-heroSection {
+    margin-top: -20px;
   }
-
-  .heroCard {
-    margin-bottom: 20px;
-    width: 320px;
-    height: 250px;
-    padding: 25px 30px;
+  .about-heroText {
+    width: 85%;
+    padding: 60px 0px 100px 20px;
   }
-
-  .heroCard h2 {
-    font-size: 30px;
+  .about-heroText h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
     margin-bottom: 10px;
   }
-
-  .heroCard p {
-    font-size: 18px;
-  }
-
-  .heroCard img {
-    margin-bottom: 12px;
+  .about-heroText p {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
   }
 }
 
 @media (min-width: 396px) and (max-width: 767px) {
-  .heroBox {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 10px;
+  .contact-heroSection {
+    margin-top: -25px;
   }
-
-  .heroCard {
-    margin-bottom: 20px;
-    width: 350px;
-    height: 270px;
-    padding: 25px 30px;
+  .about-heroText {
+    width: 85%;
+    padding: 80px 0px 100px 20px;
   }
-
-  .heroCard h2 {
-    font-size: 32px;
+  .about-heroText h1 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
     margin-bottom: 10px;
   }
-
-  .heroCard p {
-    font-size: 20px;
-    line-height: 25px;
-  }
-
-  .heroCard img {
-    margin-bottom: 12px;
+  .about-heroText p {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 45px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 950px) {
-  .heroBox {
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: -40px;
+  .contact-heroSection {
+    margin-top: -20px;
+  }
+  .about-heroText {
+    width: 68%;
+    padding: 140px 0px 100px 50px;
   }
 
-  .heroCard {
-    width: 240px;
-    height: 280px;
-    padding: 20px 25px;
+  .about-heroText h1 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    margin-bottom: 10px;
   }
-
-  .heroCard h2 {
+  .about-heroText p {
     font-size: 28px;
-  }
-
-  .heroCard p {
-    font-size: 19px;
-    line-height: 23px;
+    font-weight: 400;
+    line-height: 45px;
   }
 }
 
-/* HERO CARD SECTION STYLING ENDS HERE */
+@media (min-width: 956px) and (max-width: 1200px) {
+  .contact-heroSection {
+    margin-top: -5px;
+  }
+  .about-heroText {
+    width: 60%;
+    padding: 150px 0px 150px 50px;
+  }
+
+  .about-heroText h1 {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 64px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .about-heroText p {
+    font-size: 28px;
+    font-weight: 400;
+  }
+}
+/* CONTACT US PAGE STYLING ENDS HERE */

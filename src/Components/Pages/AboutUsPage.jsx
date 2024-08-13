@@ -206,7 +206,7 @@ const AboutUsPage = () => {
               </div>
             </div>
 
-            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-items-center gap-7 mb-2 mt-4">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  place-items-center gap-7 mb-2 mt-4">
               {/* intergrity */}
               <div class=" bg-white rounded-[24px] gap-3 text-black text-start  flex  flex-col ">
                 <div className="">

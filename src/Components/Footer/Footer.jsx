@@ -1,10 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div
-      className="w-full flex items-center z-[10] bg-[#2094b5]"
-    >
+    <div className="w-full flex items-center z-[10] bg-[#2094b5]">
       <div className="container mx-auto py-10 px-4 flex justify-around text-white md:flex-row gap-7 flex-col-reverse ">
         {/* copyright */}
         <div className="flex flex-col gap-8 pt-2 justify-center">
@@ -25,9 +24,9 @@ const Footer = () => {
         {/* companyinfo */}
         <div className="flex flex-col gap-3">
           <h1 className="font-bold text-xl">Company Info</h1>
-          <a href="/about">
-            <p>About Us</p>
-          </a>
+
+          <Link to="/AboutUsPage"><p>About</p></Link>
+
           <a href="/Careers">
             <p>Careers</p>
           </a>

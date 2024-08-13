@@ -41,10 +41,10 @@ const OurServicesPage = () => {
                     <div className="p-4 bg-[#E0F1E0] ">
                       <Accordion
                         description={
-                          " Description: Helping organizations define their strategic direction, set goals, and develop actionable plans, Optimizing processes and improving operational efficiency to drive productivity."
+                          " Helping organizations define their strategic direction, set goals, and develop actionable plans, Optimizing processes and improving operational efficiency to drive productivity."
                         }
                         benefits={
-                          " strategic: Clear strategic vision, improved decision-making, and enhanced competitive advantage,educed costs, streamlined operations, and increased operational agility."
+                          " Clear strategic vision, improved decision-making, and enhanced competitive advantage,educed costs, streamlined operations, and increased operational agility."
                         }
                         title={"STRATEGY & Operations:"}
                       ></Accordion>
@@ -90,10 +90,10 @@ const OurServicesPage = () => {
                     <div className="p-4 bg-[#E0F1E0] ">
                       <Accordion
                         description={
-                          " Description: Our Financial Planning and Analysis (FP&A) services help you create detailed financial plans and conduct thorough analyses to support strategic decision-making."
+                          " Our Financial Planning and Analysis (FP&A) services help you create detailed financial plans and conduct thorough analyses to support strategic decision-making."
                         }
                         benefits={
-                          " Benefits: Gain insights into your financial performance to develop realistic budgets, achieve accurate forecasts, and continuously monitor performance, ensuring informed decisions and optimal resource allocation."
+                          " Gain insights into your financial performance to develop realistic budgets, achieve accurate forecasts, and continuously monitor performance, ensuring informed decisions and optimal resource allocation."
                         }
                         title={"Financial Planning & Analysis:"}
                       ></Accordion>
@@ -204,10 +204,10 @@ const OurServicesPage = () => {
                     <div className="p-4 bg-[#E0F1E0]">
                       <Accordion
                         description={
-                          " Description: Our process optimization services aim to enhance the efficiency and effectiveness of your business operations. We analyze existing processes, identify inefficiencies, and implement improvements to streamline workflows.."
+                          " Our process optimization services aim to enhance the efficiency and effectiveness of your business operations. We analyze existing processes, identify inefficiencies, and implement improvements to streamline workflows.."
                         }
                         benefits={
-                          " Benefits: Streamlined processes increase efficiency, reduce costs, enhance quality, and support scalable growth."
+                          " Streamlined processes increase efficiency, reduce costs, enhance quality, and support scalable growth."
                         }
                         title={"Process Optimization:"}
                       ></Accordion>
@@ -250,10 +250,10 @@ const OurServicesPage = () => {
                     <div className="p-4 bg-[#E0F1E0]">
                       <Accordion
                         description={
-                          "Description: Our innovation strategy services help you cultivate a culture of innovation and develop a strategic framework for driving continuous improvement and growth. We work with you to identify opportunities, foster creativity, and implement processes that support innovation across your organization."
+                          " Our innovation strategy services help you cultivate a culture of innovation and develop a strategic framework for driving continuous improvement and growth. We work with you to identify opportunities, foster creativity, and implement processes that support innovation across your organization."
                         }
                         benefits={
-                          " Benefits: Gain a competitive edge and drive sustainable growth by fostering creativity, aligning innovation with business strategy, and consistently introducing new products and services."
+                          " Gain a competitive edge and drive sustainable growth by fostering creativity, aligning innovation with business strategy, and consistently introducing new products and services."
                         }
                         title={"Innovation Strategy: "}
                       ></Accordion>
@@ -280,10 +280,10 @@ const OurServicesPage = () => {
                     <div className="p-4 bg-[#E0F1E0]">
                       <Accordion
                         description={
-                          "Description: Our risk management services involve identifying, assessing, and prioritizing risks that could potentially impact your business operations. We conduct comprehensive risk assessments tailored to your industry and business environment, followed by the development and implementation of risk mitigation strategies."
+                          "Our risk management services involve identifying, assessing, and prioritizing risks that could potentially impact your business operations. We conduct comprehensive risk assessments tailored to your industry and business environment, followed by the development and implementation of risk mitigation strategies."
                         }
                         benefits={
-                          "Benefits: Identify, prioritize, and mitigate risks to enhance resilience and safeguard business objectives with effective strategies."
+                          "Identify, prioritize, and mitigate risks to enhance resilience and safeguard business objectives with effective strategies."
                         }
                         title={"Risk Assessment & Mitigation:"}
                       ></Accordion>

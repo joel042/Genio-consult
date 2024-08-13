@@ -1,6 +1,7 @@
 import React from "react";
 import "../../";
 import groupImg from "./Group 3.png";
+import { Link } from "react-router-dom"; 
 // import HeroImg2 from "./Focused developers testing vr software.png"
 
 
@@ -22,7 +23,9 @@ const Hero = () => {
           </div>
 
           <div className="hero-section-btn">
-            <button>Contact Us</button>
+            <button>
+              <Link to="/ContactUsPage"> Contact Us</Link>
+            </button>
             <button>Learn More</button>
           </div>
         </div>

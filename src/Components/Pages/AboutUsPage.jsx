@@ -173,7 +173,7 @@ const AboutUsPage = () => {
             </div>
             <div>
               <h1 className="text-xl p-3 py-2">
-                Founding Year: Established in 2022.
+                Founding Year: Established in 2020.
               </h1>
 
               <div>

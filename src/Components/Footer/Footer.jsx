@@ -1,13 +1,20 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+const date = new Date();
+
+const currentYear = date.getFullYear();
+
+
 const Footer = () => {
   return (
     <div className="w-full flex items-center z-[10] bg-[#2094b5]">
       <div className="container mx-auto py-10 px-4 flex justify-around text-white md:flex-row gap-7 flex-col-reverse ">
         {/* copyright */}
         <div className="flex flex-col gap-8 pt-2 justify-center">
-          <p className="pt-3">Copyright © 2024 Genio Incorporated Consult</p>
+          <p className="pt-3">
+            Copyright ©{currentYear} Genio Incorporated Consult
+          </p>
 
           <div className="socialIcons  flex flex-col gap-1 ">
             <div>
@@ -25,7 +32,9 @@ const Footer = () => {
         <div className="flex flex-col gap-3">
           <h1 className="font-bold text-xl">Company Info</h1>
 
-          <Link to="/AboutUsPage"><p>About</p></Link>
+          <Link to="/AboutUsPage">
+            <p>About</p>
+          </Link>
 
           <a href="/Careers">
             <p>Careers</p>

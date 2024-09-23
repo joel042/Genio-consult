@@ -9,7 +9,7 @@ function NavBar() {
   let Links = [
     { name: "Home", link: "./" },
     { name: "About us", link: "./AboutUsPage" },
-    { name: "Careers", link: "./" },
+    // { name: "Careers", link: "./" },
     { name: "Service", link: "./OurServicesPage" },
     { name: "Contact Us", link: "./ContactUsPage" },
   ];
@@ -18,7 +18,7 @@ function NavBar() {
 
   return (
     <>
-      <div className=" ">
+      <div className=" z-[20]">
         <div className="shadow-md fixed bg-[#2094b5]  z-[10]  top-0 left-0 w-full">
           <div className="md:flex items-center justify-around py-4 md:px-10 ">
             <div className="ms-2">

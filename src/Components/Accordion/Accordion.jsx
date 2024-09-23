@@ -53,14 +53,7 @@ const Accordion = (props) => {
             {benefits}
           </div>
         </div>
-        <div className="overflow-hidden">
-          <h3 className="font-semibold "> Description:</h3>
-          {description}
-          <div className="mt-4">
-            <h3 className="font-semibold "> Benefits:</h3>
-            {benefits}
-          </div>
-        </div>
+       
       </div>
     </div>
   );

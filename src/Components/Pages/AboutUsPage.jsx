@@ -165,18 +165,33 @@ const AboutUsPage = () => {
           </div>
 
           {/* history */}
-          <div className="container mx-auto">
+          <div className="container mx-auto text-center mb-5">
             <div className="flex justify-center text-2xl text-[#2094B5] font-semibold">
               <h1 className="mt-5 font-semibold text-2xl md:text-3xl p-3">
                 History and Milestones of the Company
               </h1>
             </div>
             <div>
-              <p className="text-xl p-3 py-2">
-                Founding Year: Established in 2005.
-              </p>
+              <h1 className="text-xl p-3 py-2">
+                Founding Year: Established in 2022.
+              </h1>
+
+              <div>
+                <ul>
+                  <li>
+                     2021: Expanded services to include technology
+                    consulting.
+                  </li>
+                  <li>2022: Opened offices in Europe and Asia.</li>
+                  <li> 2023: Reached 500 clients milestone.</li>
+                  <li>
+                   2024: Launched a dedicated risk management division.
+                  </li>
+                  
+                </ul>
+              </div>
             </div>
-            <div className="bg-green-300 p-2">
+            {/* <div className="bg-green-300 p-2">
               <Accordion
                 description={
                   " Description: Helping organizations define their strategic direction, set goals, and develop actionable plans, Optimizing processes and improving operational efficiency to drive productivity."
@@ -186,7 +201,7 @@ const AboutUsPage = () => {
                 }
                 title={"Key Milestones:"}
               ></Accordion>
-            </div>
+            </div> */}
           </div>
 
           {/* Our Team  */}
@@ -197,7 +212,6 @@ const AboutUsPage = () => {
               </div>
               <div>
                 <h1 className="font-semibold  w-[115px] px-2 md:w-auto f md:text-3xl">
-                
                   OUR TEAM
                 </h1>
               </div>

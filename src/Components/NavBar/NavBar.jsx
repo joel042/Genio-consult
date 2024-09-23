@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import genioLogo from "./Genio Logos-05.svg";
+import genioLogo from "./genio png white.png";
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>;
 
 

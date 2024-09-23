@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1869.43 670.52">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: FuturaBT-Light, 'Futura Lt BT';
+        font-size: 119.69px;
+        font-weight: 300;
+        letter-spacing: .15em;
+      }
+
+      .cls-3 {
+        font-family: FuturaBT-Heavy, 'Futura Hv BT';
+        font-size: 503.22px;
+        font-weight: 800;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m1.48,670.52L.03,580.34l.72,45.09-.76-45.09c62.69-1.1,248.56-22.34,279.27-102.75,20.89-54.69-32.86-145.24-151.33-254.99l61.29-66.17c153.77,142.44,210.77,258.05,174.25,353.44C305.52,661.31,32.43,670.03,1.48,670.52Z"/>
+  <path class="cls-1" d="m184.48,513.67C31.02,370.9-25.73,255.16,10.99,159.85,69.29,8.55,342.4.43,373.35,0l1.25,90.18-.62-45.09.66,45.09c-62.69.96-248.61,21.8-279.5,102.14-21.01,54.64,32.54,145.31,150.78,255.32l-61.44,66.03Z"/>
+  <text class="cls-3" transform="translate(413.73 445.68)"><tspan x="0" y="0">Genio</tspan></text>
+  <text class="cls-2" transform="translate(1330.4 555.99)"><tspan x="0" y="0">consults</tspan></text>
+</svg>

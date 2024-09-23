@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import genioLogo from "./genioLogo.png";
+import genioLogo from "./Genio Logos-05.svg";
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>;
 
 
@@ -22,7 +22,7 @@ function NavBar() {
         <div className="shadow-md fixed bg-[#2094b5]  z-[10]  top-0 left-0 w-full">
           <div className="md:flex items-center justify-around py-4 md:px-10 ">
             <div className="ms-2">
-              <img src={genioLogo} alt="genioLogo" />
+              <img src={genioLogo} className=" w-32 md:w-40" alt="genioLogo" />
             </div>
             <div
               onClick={() => setOpen(!open)}
